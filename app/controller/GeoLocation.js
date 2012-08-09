@@ -27,7 +27,7 @@ Ext.define('SenchaProtoOne.controller.GeoLocation',{
                 
                 var placesProxy = placesStore.getProxy();
                 
-                placesProxy.setUrl('http://localhost/PHPBackend/index.php/rest/places?location='+position.coords.latitude+','+position.coords.longitude);
+                placesProxy.setUrl('http://backend.masterthesis.fm/index.php/rest/places?location='+position.coords.latitude+','+position.coords.longitude);
                 
                 console.log(placesProxy);
                 

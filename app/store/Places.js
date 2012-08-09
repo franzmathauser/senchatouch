@@ -16,7 +16,7 @@ Ext.define('SenchaProtoOne.store.Places',{
         },
         proxy: {
             type: 'ajax',
-            url: 'http://localhost/PHPBackend/index.php/rest/places?location=-33.8670522,151.1957362',
+            url: 'http://backend.masterthesis.fm/index.php/rest/places?location=-33.8670522,151.1957362',
             reader: {
                 type: 'json',
                 rootProperty:'results'

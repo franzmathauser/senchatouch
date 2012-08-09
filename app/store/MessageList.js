@@ -15,7 +15,7 @@ Ext.define('SenchaProtoOne.store.MessageList', {
        
        proxy: {
             type: 'ajax',
-            url : 'http://localhost/PHPBackend/index.php/rest/messages',
+            url : 'http://backend.masterthesis.fm/index.php/rest/messages',
             method: "GET",
             reader: {
                 rootProperty: 'messages'

@@ -30,7 +30,7 @@ Ext.define('SenchaProtoOne.controller.Main',{
         
         var form = this.getContactForm();
         form.submit({
-            url: 'http://localhost/PHPBackend/index.php/rest/contacts'
+            url: 'http://backend.masterthesis.fm/index.php/rest/contacts'
         });
         
         /*
