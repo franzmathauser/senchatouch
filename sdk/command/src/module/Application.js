@@ -404,12 +404,13 @@ Ext.define('Command.module.Application', {
                                 packagerConfig.inputPath = destination;
                                 packagerConfig.outputPath = path.resolve(config.buildPaths.native);
                                 fs.mkdir(packagerConfig.outputPath);
+								this.info(packagerConfig.inputPath);
                                 fs.writeJson(path.join(src, 'packager.temp.json'), packagerConfig);
 
                                 this.info("Packaging your application as a native app...");
-
                                 this.getModule('package').run('packager.temp.json', function() {
-                                    nodeFs.unlinkSync(path.join(src, 'packager.temp.json'));
+									
+                                    //nodeFs.unlinkSync(path.join(src, 'packager.temp.json'));
                                 });
                             }
                         }.bind(this));

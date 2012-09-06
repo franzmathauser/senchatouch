@@ -98,7 +98,11 @@
      */
     "ignore": [
         "\.svn$",
-        "\.git$"
+        "\.git$",
+        "\build$",
+        ".git$",
+        "nbproject",
+        "\nbproject"
     ],
 
     /**
@@ -123,8 +127,8 @@
     "buildOptions": {
         "product": "touch",
         "minVersion": 3,
-        "debug": false,
-        "logger": "no"
+        "debug": true,
+        "logger": "yes"
     },
 
     /**

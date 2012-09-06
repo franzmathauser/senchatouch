@@ -44,7 +44,7 @@ Ext.define('Command.module.Package', {
     },
 
     run: function(fileName, callback) {
-        this.exec('stbuild run %s', [fileName], function(error, stdout, stderr) {
+        this.exec('C:/Windows/stbuild run %s', [fileName], function(error, stdout, stderr) {
             if (callback) {
                 callback();
             }
