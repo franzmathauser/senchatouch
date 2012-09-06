@@ -1,0 +1,23 @@
+{
+    "applicationName": "SenchaProtoOne",
+    "applicationId": "com.nttdata.senchaprotoone",
+    "bundleSeedId": "5BXU55238Z",
+    "inputPath": "C:\\dev\\workspaces\\netbeans\\SenchaProtoOne",
+    "iconName": "icon.png",
+    "outputPath": "C:\\dev\\workspaces\\netbeans\\ios",
+    "versionString": "1.0",
+    "configuration": "Debug",
+    "platform": "iOS",
+    "deviceType": "iPad",
+    "certificatePath":"C:\\dev\\server\\ssl\\ios_development.p12",
+    "provisionProfile":"C:\\dev\\server\\ssl\\iOS_Team_Provisioning_Profile_.mobileprovision",
+    "certificatePassword":"",
+    "certificateAlias": "iPhone Developer: Franz Mathauser (E6HL3P799N)",
+    "rawConfig":"<Optional><key>UIPrerenderedIcon</key><false/>",
+    "orientations": [
+        "portrait",
+        "landscapeLeft",
+        "landscapeRight",
+        "portraitUpsideDown"
+    ]
+}
