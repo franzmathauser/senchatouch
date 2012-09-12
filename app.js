@@ -11,7 +11,12 @@ Ext.application({
     
     requires: [
         'Ext.MessageBox',
-        'Ext.device.Geolocation'
+        'Ext.device.Geolocation',
+		'Ext.data.proxy.LocalStorage',
+		'Ext.Img',
+		'Ext.field.Email',
+		'Ext.Map',
+		'Ext.form.FieldSet'
     ],
 
     //views: ['Main'],
