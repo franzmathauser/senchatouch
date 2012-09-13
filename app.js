@@ -1,3 +1,8 @@
+//<debug>
+Ext.Loader.setPath({
+'Ext':'touch/src'
+});
+//</debug>
 Ext.Loader.setConfig({
     enabled: true
 });

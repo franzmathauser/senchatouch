@@ -19,7 +19,9 @@ Ext.define('SenchaProtoOne.controller.GeoLocation',{
     
     init: function(){
         
-        Ext.device.Geolocation.getCurrentPosition({
+        /*
+         
+         Ext.device.Geolocation.getCurrentPosition({
             success: function(position) {
                 console.log(position.coords);
                 
@@ -37,6 +39,7 @@ Ext.define('SenchaProtoOne.controller.GeoLocation',{
                 console.log('something went wrong with geolocation!');
             }
         });
+        */
     }
     
 });
